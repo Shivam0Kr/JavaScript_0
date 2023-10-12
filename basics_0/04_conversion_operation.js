@@ -48,9 +48,28 @@ console.log((3+4) * 61 % 3);
 console.log(+true);             // don't use
 console.log(+"");               // don't use
 
+
+let string1 = "Hello"
+let string2 = " Shivam"
+let String = string1+string2
+console.log(String);
+
 let num1, num2, num3 = 2+3
 
 let gameCounter = 100
 console.log(gameCounter);
 gameCounter++
 console.log(gameCounter);
+gameCounter--
+gameCounter--
+console.log(gameCounter);
+
+let x = 3
+const y = x++
+console.log(`x:${x} \n y:${y}`);
+
+let a = 3
+console.log(a);
+const b = ++a
+//let b1 = ++a
+console.log(`a:${a} \n b:${b}`);
