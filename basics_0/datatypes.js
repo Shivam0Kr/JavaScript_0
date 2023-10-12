@@ -21,3 +21,6 @@ console.log(typeof null);
 console.log(typeof undefined);
 
 console.log("Shivam Kumar");
+
+let city = 5600
+console.log(typeof city);
