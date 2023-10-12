@@ -1,0 +1,8 @@
+// Variables
+
+const Id= 3456
+let email= 'you123@gmail.com'
+var password= "Erghdjksl&568"
+city= "Jaipur"
+
+console.table([Id, email, password, city])
