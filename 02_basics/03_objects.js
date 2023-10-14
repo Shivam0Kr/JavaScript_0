@@ -25,11 +25,24 @@ const user = {
 
 // overridding values
 user.name = "Akash"
-Object.freeze(user) // this freezes the user values and further can't be changed
+//Object.freeze(user) // this freezes the user values and further can't be changed
 // console.log(user);
 user.name = "Raj"
 // console.log(user);
 user.age = 34
 // console.log(user);
 
+
 // Functions
+user.greeting = function(){
+    console.log("Hello JS user");
+}
+
+user.greeting_two = function(){
+    console.log(`Hello ${this.name}`);
+    console.log(`Welcome to ${this.city}`);
+}
+
+ console.log(user.greeting);
+ console.log(user.greeting());
+ console.log(user.greeting_two());
