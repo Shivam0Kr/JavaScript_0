@@ -36,5 +36,9 @@ console.log(Math.floor(Date.now()/1000));       // converted to minutes
 let newDate = new Date()
 console.log(newDate.getMonth());
 
+// newDate.toLocaleString('default',{
+//    weekday: "long",
+//    timeZone: "getTime"
+// })
 
 console.log(`And the day is ${newDate.getDay()}`)
