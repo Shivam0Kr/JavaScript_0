@@ -59,7 +59,9 @@ handleObject({
     price : 999
 })
 
+
 const arr1 = [100, 200, 300, 400, 500]
 function returnSecond_value(getArr) {
-    
+    return getArr[1]
 }
+console.log(returnSecond_value(arr1));
