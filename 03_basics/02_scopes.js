@@ -31,3 +31,29 @@ if(true){
         console.log(welcome + name);
     }
 }
+
+function addOne(num){
+    return console.log(num+1);
+}
+addOne(6)
+
+
+const addTwo = function(num){               // also known as expression
+    return num+2
+}
+addOne(6)
+
+
+
+
+
+// addOne(6)
+// function addOne(num){
+//     return console.log(num+1);
+// }
+
+
+// addTwoo(6)                                    // ReferenceError: Cannot access 'addTwoo' before initialization
+// const addTwoo = function(num){               // error
+//     return num+3
+// }
