@@ -36,4 +36,3 @@ else{
 console.log(`your balance is: ${totalBalance}`);
 
 
-
