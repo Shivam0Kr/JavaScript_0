@@ -46,11 +46,13 @@ console.log(calculateCart_Price(200, 400, 500, 1000, 1999));
 
 
 //------------------- Using function and Object --------------------------------
+// (Any) is used for both value and reference types, such as structs, Int, String, etc. and can also be used for classes, functions and closures. whereas (AnyObject) is used for reference types, i.e. classes
+
 const user = {
     userName : "Rahul",
     price : 1999
 }
-function handleObject(anyObject) {
+function handleObject(anyObject) {  //
     console.log(`User name is ${anyObject.userName} and price is ${anyObject.price}`);
 }
 // handleObject(user)               // can also be done as below
