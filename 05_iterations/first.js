@@ -19,13 +19,19 @@ let arr1 = [2, 3, 4, 5];
 for (let index = 0; index < arr1.length; index++) {
     const element = arr1[index];
     // console.log(element);
-    
 }
+
+// break; continue;
 
 for (let index = 0; index <= 10; index++) {
     if(index == 5){
-        console.log("index: 5 detected");
-        break;
+        // console.log("index: 5 detected");
+        // break;
+        continue;
     }
-    console.log(`value of index ${index}`);
+    // console.log(`value of index ${index}`);
 }
+
+
+// while loop
+
