@@ -35,3 +35,28 @@ for (let index = 0; index <= 10; index++) {
 
 // while loop
 
+let i = 10;
+while (i>=5) {
+    // console.log(i);
+    i = i-1;
+}
+
+let index = 1
+while (index <= 10) {
+    // console.log(`value is: ${index}`);
+    index = index+1;
+}
+
+let arr2 = ["A", "B", "C", "D", "E"]
+let arr = 0;
+while(arr < arr2.length){
+    console.log(arr2[arr]);
+    arr++;
+}
+
+// do while
+let score = 11;
+do {
+    console.log(`score is: ${score}`);
+    score++;
+} while (score <= 20);
