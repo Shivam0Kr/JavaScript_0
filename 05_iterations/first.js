@@ -50,7 +50,7 @@ while (index <= 10) {
 let arr2 = ["A", "B", "C", "D", "E"]
 let arr = 0;
 while(arr < arr2.length){
-    console.log(arr2[arr]);
+    // console.log(arr2[arr]);
     arr++;
 }
 
